@@ -1,0 +1,25 @@
+{
+  "name": "xmtp-agentkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@coinbase/agentkit": "^0.7.2",
+    "@coinbase/agentkit-langchain": "^0.3.0",
+    "@langchain/langgraph": "^0.2.72",
+    "@langchain/openai": "^0.5.10",
+    "@types/node": "^22.15.18",
+    "@xmtp/node-sdk": "^2.0.9",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3",
+    "uint8arrays": "^5.1.0",
+    "viem": "^2.29.4"
+  }
+}
